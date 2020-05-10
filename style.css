@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .container {
     height: 100vh;
     width: 100%;
-    background: blue;
+    background: #707070;
     position: relative;
 }
 
@@ -17,46 +18,90 @@ header {
 }
 
 .foglio {
-    height: 90%;
+    height: 95%;
     width: 90%;
     position: absolute;
-    top: 20px;
-    left: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
 }
 
 #right {
     width: 70%;
     float: left;
-    background-color: coral;
+    background-color: #e2b150;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
 }
 
 #left {
     width: 30%;
-    float: left;
-    background-color: purple;
+    background-color:#F5F5F5;
     float: left;
     height: 100%;
 }
-
-#right-top {
-    height: 35px;
+#notifiche {
     width: 100%;
-    background-color: grey;
+    height: 50px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.cerca{
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+#barra{
+    width: 100%;
+}
+.search{
+    width: 100%;
+}
+#right-top {
+    height: 60px;
+    width: 100%;
+    background-color: #C8C8C8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     float: left;
 
+}
+.conversazione {
+    display: flex;
+    align-items: center;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+
+}
+.chat p {
+    display:inline-block;
+}
 }
 #right-bottom {
     height: 35px;
     width: 100%;
-    background-color: black;
+    background-color:#C8C8C8;
 }
 #left-top {
-    height: 35px;
+    height: 60px;
     width: 100%;
-    background-color: red;
     float: left;
+    background-color: #D8D8D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#avatar {
+height:60px;
 }
