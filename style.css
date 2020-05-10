@@ -4,8 +4,10 @@
     box-sizing: border-box;
 
 }
-
-.container {
+p {
+    font-weight: bold;
+}
+.sfondo {
     height: 100vh;
     width: 100%;
     background: #707070;
@@ -17,7 +19,7 @@ header {
     background-color: green;
 }
 
-.foglio {
+.pagina {
     height: 95%;
     width: 90%;
     position: absolute;
@@ -31,6 +33,9 @@ header {
     float: left;
     background-color: #e2b150;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -49,7 +54,9 @@ header {
     background-color: lightblue;
     align-items: center;
 }
-
+#notifiche small {
+    text-decoration: underline;
+}
 .cerca{
     float: left;
     display: flex;
@@ -58,6 +65,16 @@ header {
     height: 30px;
     align-items: center;
 }
+
+.contatto{
+    height: 60px;
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 #barra{
     width: 100%;
 }
@@ -74,6 +91,17 @@ header {
     float: left;
 
 }
+#right-bottom{
+    height: 60px;
+    width: 100%;
+    background-color: #C8C8C8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+
+}
+
 .conversazione {
     display: flex;
     align-items: center;
@@ -81,6 +109,7 @@ header {
 .chat{
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 
 }
 .chat p {
@@ -103,5 +132,5 @@ header {
 }
 
 #avatar {
-height:60px;
+height:58px;
 }
