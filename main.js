@@ -1,13 +1,13 @@
 
 //cliccando microfono utente visualizza il suo messaggio
-$("#invia").click(function(){
+    $("#invia").click(function(){
 
 //creo testo utente
-     var messaggio_utente = $('#mex').val();
+     var messaggio_utente = $('#send_it').val();
      console.log(messaggio_utente);
-     $('.dialogo').append( messaggio_utente);
+    // $('.dialogo').append( messaggio_utente);
 //creo template nuvo messaggio e lo copip
-     var nuovo_messaggio = $('.template').clone();
+     var nuovo_messaggio = $('.template .messaggio' ).clone();
 //aggiungo testo
      nuovo_messaggio.text(messaggio_utente);
 //aggiungo il nuvo messaggio
@@ -17,3 +17,6 @@ $("#invia").click(function(){
 //    var messaggio_utente = $('#mex').val()
 
     //$('#dialogo').append( '<div id='mio'>' + messaggio_utente + '</div>')
+
+
+// premendo invio il messaggio viene visualizzato
