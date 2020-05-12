@@ -23,7 +23,7 @@ input {
 }
 
 .pagina {
-    height: 95%;
+    height: 90%;
     width: 90%;
     position: absolute;
     left: 50%;
@@ -117,7 +117,7 @@ input {
 
 }
 #right-bottom{
-    height: 40px;
+    height: 30px;
     width: 100%;
     background-color: #C8C8C8;
     display: flex;
@@ -166,6 +166,10 @@ height:28px;
 
 .template {
     display: none;
+
+}
+
+.messaggio {
     background-color: green;
     padding: 20px;
     border-radius: 20px;
