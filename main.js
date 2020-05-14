@@ -6,7 +6,7 @@ $('#send_it').keypress(function(event){
         invia_messaggio();
     }
 })
-
+$('.contatto').click(this)
 
 function invia_messaggio() {
 
@@ -68,9 +68,8 @@ $('.contatto').each(function(){
 
 // se non lo nascondo
 
-
-
-
+//clicaando sul contatto utente visualizza la ripsettiva conversazione
+$('#contatto').click(function{
 
 
 })
